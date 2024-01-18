@@ -14,6 +14,7 @@
       <div>
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
           <li><a href="#experience">Experience</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
@@ -30,6 +31,7 @@
         </div>
         <div class="menu-links">
           <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#education" onclick="toggleMenu()">Education</a></li>
           <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
           <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
           <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
@@ -38,7 +40,7 @@
     </nav>
     <section id="profile">
       <div class="section__pic-container">
-        <img src="./assets/profile-pic.png" alt="John Doe profile picture" />
+        <img src="./assets/profile-pic.png" alt="profile picture" />
       </div>
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
@@ -47,11 +49,11 @@
         <div class="btn-container">
           <button
             class="btn btn-color-2"
-            onclick="window.open('./assets/resume-example.pdf')"
+            onclick="window.open('./assets/resume.pdf')"
           >
-            Download CV
+            Download Resume
           </button>
-          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+          <button class="btn btn-color-1" onclick="location.href='#contact'">
             Contact Info
           </button>
         </div>
@@ -60,13 +62,13 @@
             src="./assets/linkedin.png"
             alt="My LinkedIn profile"
             class="icon"
-            onclick="location.href='https://linkedin.com/'"
+            onclick="location.href='https://linkedin.com/in/eric-wnorowski'"
           />
           <img
             src="./assets/github.png"
             alt="My Github profile"
             class="icon"
-            onclick="location.href='https://github.com/'"
+            onclick="location.href='https://wnorowskie.github.io./'"
           />
         </div>
       </div>
@@ -77,40 +79,56 @@
       <div class="section-container">
         <div class="section__pic-container">
           <img
-            src="./assets/about-pic.png"
+            src="./assets/about.jpeg"
             alt="Profile picture"
             class="about-pic"
           />
         </div>
         <div class="about-details-container">
           <div class="about-containers">
-            <div class="details-container">
+            <div class="details-containera">
               <img
-                src="./assets/experience.png"
-                alt="Experience icon"
-                class="icon"
-              />
-              <h3>Experience</h3>
-              <p>2+ years <br />Frontend Development</p>
-            </div>
-            <div class="details-container">
-              <img
-                src="./assets/education.png"
-                alt="Education icon"
+                src="./assets/graduate.png"
+                alt="Graduate icon"
                 class="icon"
               />
               <h3>Education</h3>
-              <p>B.Sc. Bachelors Degree<br />M.Sc. Masters Degree</p>
+              <p><br />Vassar College Computer Science<br />Bachelors Degree<br /><br />College of Charleston Computer & Information Science<br />Masters Degree</p>
+            </div>
+            <div class="details-containera">
+              <img
+                src="./assets/soccer.png"
+                alt="Soccer icon"
+                class="icon"
+              />
+              <h3>Student-Athlete</h3>
+              <p><br />Vassar College<br />2019 - 2022<br />Men's Soccer<br /><br />College of Charleston 2023<br />Men's Soccer</p>
+            </div>
+            <div class="details-containera">
+              <img
+                src="./assets/work.png"
+                alt="Work icon"
+                class="icon"
+              />
+              <h3>Work Experience</h3>
+              <p><br />Data Science Intern<br />ConstructConnect<br /><br />Teaching Assistant<br />Vassar College & LACOL Schools</p>
             </div>
           </div>
           <div class="text-container">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-              reprehenderit et laborum, rem, dolore eum quod voluptate
-              exercitationem nobis, nihil esse debitis maxime facere minus sint
-              delectus velit in eos quo officiis explicabo deleniti dignissimos.
-              Eligendi illum libero dolorum cum laboriosam corrupti quidem,
-              reiciendis ea magnam? Nulla, impedit fuga!
+              In 2019 I graduated from the college prepatory Christian Brothers Academy in Lincroft, New Jersey. 
+              I was accepted to Vassar College with a 1490 SAT after receiving an athletic position offer.
+              After trying a variety of courses I began to fall in love with Computer Science classes.
+              I always enjoyed math and science but the problem solving nature of Computer Science really sparked my interest.
+              <br />
+              <br />
+              Four years later I was a four-year starter, captain, and two time all-conference soccer player while
+              maintaining a 3.7 GPA in a competitive major at a top liberal arts institution.
+              In 2022 I had the opportunity to intern with the Data Science & Engineering team at ConstructConnect
+              where I was given the responsibility and freedom to work on exciting projects and get hands-on data science experience.
+              I decided to use my final year of athletic eligibility to continue my education and accepted
+              a scholarship offer from the College of Charleston Men's Soccer staff. I am currently continuing my
+              degree while I search for full-time employment.
             </p>
           </div>
         </div>
@@ -119,7 +137,7 @@
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href='./#experience'"
+        onclick="location.href='#experience'"
       />
     </section>
     <section id="experience">
@@ -128,7 +146,7 @@
       <div class="experience-details-container">
         <div class="about-containers">
           <div class="details-container">
-            <h2 class="experience-sub-title">Frontend Development</h2>
+            <h2 class="experience-sub-title">Programming Languages</h2>
             <div class="article-container">
               <article>
                 <img
@@ -137,7 +155,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>HTML</h3>
+                  <h3>HTML/CSS/JS</h3>
                   <p>Experienced</p>
                 </div>
               </article>
@@ -148,7 +166,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>CSS</h3>
+                  <h3>Java</h3>
                   <p>Experienced</p>
                 </div>
               </article>
@@ -159,8 +177,8 @@
                   class="icon"
                 />
                 <div>
-                  <h3>SASS</h3>
-                  <p>Intermediate</p>
+                  <h3>Python</h3>
+                  <p>Experienced</p>
                 </div>
               </article>
               <article>
@@ -170,8 +188,8 @@
                   class="icon"
                 />
                 <div>
-                  <h3>JavaScript</h3>
-                  <p>Basic</p>
+                  <h3>R</h3>
+                  <p>Experienced</p>
                 </div>
               </article>
               <article>
@@ -181,8 +199,8 @@
                   class="icon"
                 />
                 <div>
-                  <h3>TypeScript</h3>
-                  <p>Basic</p>
+                  <h3>SQL</h3>
+                  <p>Advanced</p>
                 </div>
               </article>
               <article>
@@ -192,14 +210,14 @@
                   class="icon"
                 />
                 <div>
-                  <h3>Material UI</h3>
-                  <p>Intermediate</p>
+                  <h3>C/C++/C#</h3>
+                  <p>Advanced</p>
                 </div>
               </article>
             </div>
           </div>
           <div class="details-container">
-            <h2 class="experience-sub-title">Frontend Development</h2>
+            <h2 class="experience-sub-title">Software & Tech</h2>
             <div class="article-container">
               <article>
                 <img
@@ -208,30 +226,8 @@
                   class="icon"
                 />
                 <div>
-                  <h3>PostgreSQL</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Node JS</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h3>Express JS</h3>
-                  <p>Intermediate</p>
+                  <h3>GCP</h3>
+                  <p>Experienced</p>
                 </div>
               </article>
               <article>
@@ -242,7 +238,51 @@
                 />
                 <div>
                   <h3>Git</h3>
-                  <p>Intermediate</p>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Juypter Notebooks</h3>
+                  <p>Advanced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Android Studio</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>R Studio</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>IntelliJ</h3>
+                  <p>Advanced</p>
                 </div>
               </article>
             </div>
@@ -253,7 +293,7 @@
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href='./#projects'"
+        onclick="location.href='#projects'"
       />
     </section>
     <section id="projects">
@@ -262,14 +302,15 @@
       <div class="experience-details-container">
         <div class="about-containers">
           <div class="details-container color-container">
+          <div class="center-project">
             <div class="article-container">
               <img
-                src="./assets/project-1.png"
+                src="./assets/soccer.jpeg"
                 alt="Project 1"
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project One</h2>
+            <h2 class="experience-sub-title project-title">Sports Data Project</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
@@ -285,39 +326,41 @@
               </button>
             </div>
           </div>
+          </div>
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./assets/project-2.png"
-                alt="Project 2"
+                src="./assets/cc.png"
+                alt="CC"
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <h2 class="experience-sub-title project-title">Takeoff Boost ConstructConnect</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href='https://kbase.oncenter.com/article/AA-04895/0/OST-06.02.01-Using-Takeoff-Boost-to-Jump-Start-Your-Project-Overview-and-Requirements.html'"
               >
-                Github
+                Project Description
               </button>
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href='https://x.com/constructconnx/status/1635722790627057664?s=46&t=rlbUlWCfIFe7P7mP8O-CVw'"
               >
-                Live Demo
+                Boost vs Being
               </button>
             </div>
           </div>
           <div class="details-container color-container">
+            <div class="center-project">
             <div class="article-container">
               <img
-                src="./assets/project-3.png"
+                src="./assets/portfolio.png"
                 alt="Project 3"
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <h2 class="experience-sub-title project-title">Portfolio Project</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
@@ -332,6 +375,7 @@
                 Live Demo
               </button>
             </div>
+          </div>
           </div>
         </div>
       </div>
@@ -339,7 +383,7 @@
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon arrow"
-        onclick="location.href='./#contact'"
+        onclick="location.href='#contact'"
       />
     </section>
     <section id="contact">
@@ -352,7 +396,7 @@
             alt="Email icon"
             class="icon contact-icon email-icon"
           />
-          <p><a href="mailto:examplemail@gmail.com">Example@gmail.com</a></p>
+          <p><a href="mailto:examplemail@gmail.com">wnorowskiew@g.cofc.edu</a></p>
         </div>
         <div class="contact-info-container">
           <img
@@ -360,7 +404,7 @@
             alt="LinkedIn icon"
             class="icon contact-icon"
           />
-          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+          <p><a href="https://linkedin.com/in/eric-wnorowski">LinkedIn</a></p>
         </div>
       </div>
     </section>
@@ -375,7 +419,7 @@
           </ul>
         </div>
       </nav>
-      <p>Copyright &#169; 2023 John Doe. All Rights Reserved.</p>
+      <p>Copyright &#169; 2024 Eric Wnorowski. All Rights Reserved.</p>
     </footer>
     <script src="script.js"></script>
   </body>

@@ -274,6 +274,7 @@ section {
 }
 
 .about-details-container {
+  position: relative;
   justify-content: center;
   flex-direction: column;
 }
@@ -303,15 +304,36 @@ section {
   text-align: center;
 }
 
+.details-containera {
+  margin-top: 50px;
+  height: 70%;
+  padding: 1.5rem;
+  flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+}
+
+
 .section-container {
   gap: 4rem;
   height: 80%;
+  margin-top: 50px;
+}
+
+.text-container{
+  font-size: 90%;
+  margin-bottom: 100px;
+  margin-top: -40px;
 }
 
 .section__pic-container {
-  height: 400px;
+  height: 500px;
   width: 400px;
-  margin: auto 0;
+  margin-left: -100px;
+  margin-top: -5px;
 }
 
 /* EXPERIENCE SECTION */
@@ -367,7 +389,7 @@ article .icon {
 .project-img {
   border-radius: 2rem;
   width: 90%;
-  height: 90%;
+  height: 100%;
 }
 
 .project-title {
@@ -378,6 +400,12 @@ article .icon {
 .project-btn {
   color: black;
   border-color: rgb(163, 163, 163);
+}
+
+.center-project{
+  position: relative;
+top: 50%;
+transform: translateY(-50%);
 }
 
 /* CONTACT */
