@@ -181,8 +181,9 @@ section {
   position: relative;
   height: 600px;
   width: 600px;
-  margin: auto 0;
+  margin: 100px;
   border-radius: 10px;
+  
 }
 
 .section__text {
@@ -327,7 +328,7 @@ p {
 }
 
 .details-containera {
-  margin-top: 50px;
+  margin: auto;
   height: 70%;
   padding: 1.5rem;
   flex: 1;
@@ -336,6 +337,7 @@ p {
   border: #7d212b 0.5rem solid;
   border-color: #7d212b;
   text-align: center;
+  width: min-content;
 }
 
 
