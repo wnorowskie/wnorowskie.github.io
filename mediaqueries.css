@@ -1,4 +1,4 @@
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1700px) {
   #profile {
     height: 83vh;
     margin-bottom: 6rem;
@@ -7,7 +7,7 @@
     height: fit-content;
     justify-content: flex;
   }
-  .about-containers {
+  .about-containers, .project-container {
     flex-wrap: wrap;
   }
   #contact,
@@ -40,7 +40,7 @@
     height: fit-content;
     justify-content: flex;
   }
-  .section-container {
+  .section-container, .project-container {
     display: block;
     height: fit-content;
     justify-content: flex;
@@ -129,5 +129,11 @@
 
   #videoContainer{
     width: 100%;
+  }
+}
+
+@media screen and (min-width: 800px) and (max-height: 700px) {
+  #section, #contact, #profile, #about, #projects, .dnav, #hamburger-nav, #experience, #footer {
+    margin: 0 10;
   }
 }
