@@ -41,7 +41,7 @@ nav,
 nav {
   justify-content: space-around;
   align-items: center;
-  height: 17vh;
+  height: 12vh;
 }
 
 .nav-links {
@@ -156,7 +156,7 @@ a:hover {
 /* SECTIONS */
 
 section {
-  padding-top: 4vh;
+  padding-top: 2vh;
   height: 96vh;
   margin: 0 5rem;
   box-sizing: border-box;
@@ -171,19 +171,36 @@ section {
 
 #profile {
   display: flex;
+  align-items: center;
   justify-content: center;
+  position: relative;
   gap: 5rem;
   height: 80vh;
+  padding-top: 2vh;
+  margin: 0 5rem;
+  box-sizing: border-box;
+  min-height: fit-content;
+}
+
+.profile {
+  display: inline-block;
+  box-sizing: border-box;
+  vertical-align: middle;
+  justify-content: center;
+  position: relative;
+
+  padding-top: 2vh;
+  margin-top: 5rem;
+  min-height: fit-content;
+  margin-bottom: 2rem;
+  gap: 5rem;
 }
 
 .section__pic-container {
   display: flex;
-  position: relative;
-  height: 600px;
-  width: 600px;
-  margin: 100px;
+  justify-content: center;
+  height: 70%;
   border-radius: 10px;
-  
 }
 
 .section__text {
@@ -202,7 +219,6 @@ p {
 .section__text__p1 {
   text-align: center;
   color: white;
-  top: 5px;
 }
 
 .section__text__p2 {
@@ -215,7 +231,8 @@ p {
   font-size: 3rem;
   text-align: center;
   color: white;
-  padding-bottom: 10px;
+  padding: auto;
+  padding-bottom: .5rem;
 }
 
 #socials-container {
@@ -284,13 +301,11 @@ p {
 
 #about {
   position: relative;
-  top: 5px;
 }
 
 .about-containers {
   gap: 1rem;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
+  height: 80%;
 }
 
 .about-details-container {
@@ -304,6 +319,10 @@ p {
   display: flex;
 }
 
+.asectiontitle{
+   margin-top: 10px;
+}
+
 .title1 {
   color: white;
   font-size: 3rem;
@@ -311,7 +330,10 @@ p {
 }
 
 .about-pic {
+  display: flex;
+  justify-content: center;
   border-radius: 2rem;
+  height: 80%;
 }
 
 .arrow {
@@ -332,7 +354,7 @@ p {
 
 .details-containera {
   margin: auto;
-  height: 80%;
+  height: 78%;
   padding: 1.5rem;
   flex: 1;
   background: white;
@@ -347,18 +369,18 @@ p {
 .section-container {
   gap: 2rem;
   height: 80%;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .text-container{
   font-size: 90%;
-  margin-bottom: 100px;
-  bottom: 15px;
+  padding: 10px;
+  bottom: 5px;
 }
 
 .section__pic-container {
-  height: 500px;
-  width: 400px;
+  display: flex;
+  justify-content: center;
   margin-left: 50px;
   margin-top: -5px;
 }
@@ -382,6 +404,7 @@ p {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  gap: 10px;
 }
 
 .article-container {
