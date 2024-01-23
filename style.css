@@ -190,7 +190,6 @@ section {
   position: relative;
 
   padding-top: 2vh;
-  margin-top: 5rem;
   min-height: fit-content;
   margin-bottom: 2rem;
   gap: 5rem;
@@ -201,6 +200,11 @@ section {
   justify-content: center;
   height: 70%;
   border-radius: 10px;
+}
+
+#videoContainer {
+  width: 80%;
+  margin: 0 auto;
 }
 
 .section__text {
