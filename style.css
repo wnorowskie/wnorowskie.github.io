@@ -175,7 +175,7 @@ section {
   justify-content: center;
   position: relative;
   gap: 5rem;
-  height: 86vh;
+  height: 80vh;
   padding-top: 2vh;
   margin: 0 5rem;
   box-sizing: border-box;
@@ -318,13 +318,6 @@ p {
   height: 80%;
 }
 
-.about-containersa {
-  height: 50%;
-  justify-content: center;
-  flex-direction: column;
-  position: relative;
-}
-
 .about-details-container {
   position: relative;
   justify-content: center;
@@ -420,7 +413,6 @@ p {
   flex-direction: row;
   gap: 2.5rem;
   justify-content: space-around;
-  
 }
 
 article {
@@ -441,43 +433,9 @@ article .icon {
 /* PROJECTS SECTION */
 
 #projects {
-  height: 96vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 100%;
+  position: relative;
 }
 
-.projects-title {
-  margin: 0 auto;
-
-}
-
-.project-container {
-  flex-grow: 1;
-  display: grid;
-  flex-direction: column;
-  grid-template-columns: repeat(2, minmax(0, 1fr)); /* Use minmax(0, 1fr) for better responsiveness */
-  max-height: 100%;
-  gap: 10px; /* Reduce the gap for a more compact layout */
-  height: 50%;
-  place-items: center;
-  
-}
-
-.grid-item {
-  width: 100%; /* Set a default width, can be adjusted based on your design */
-  max-width: 500px; /* Set a maximum width if needed */
-  margin: 1rem auto;
-  border: #7d212b 0.5rem solid;
-  border-color: #7d212b;
-  border-radius: 2rem;
-  background: rgb(250, 250, 250);
-  padding: 1rem;
-  text-align: center;
-  justify-content: center;
-  flex-direction: column;
-}
 .color-container {
   border-color: #7d212b;
   background: rgb(250, 250, 250);
@@ -485,8 +443,8 @@ article .icon {
 
 .project-img {
   border-radius: 2rem;
-  width: 30%;
-  height: 30%;
+  width: 90%;
+  height: 100%;
 }
 
 .project-title {
