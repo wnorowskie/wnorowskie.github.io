@@ -9,7 +9,8 @@
     "start": "next start",
     "export": "next build",
     "deploy:pages": "next build && touch out/.nojekyll",
-    "preview": "npx serve out"
+    "preview": "npx serve out",
+    "install:legacy": "npm install --legacy-peer-deps"
   },
   "dependencies": {
     "@emotion/is-prop-valid": "latest",
