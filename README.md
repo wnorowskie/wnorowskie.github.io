@@ -1,4 +1,4 @@
-# 🚀 Eric Wnorowski - Portfolio Website
+# Eric Wnorowski - Portfolio Website
 
 [![Deployment Status](https://github.com/wnorowskie/wnorowskie.github.io/actions/workflows/pages.yml/badge.svg)](https://github.com/wnorowskie/wnorowskie.github.io/actions/workflows/pages.yml)
 [![Next.js](https://img.shields.io/badge/Next.js-14.2.16-black?logo=next.js)](https://nextjs.org/)
@@ -13,19 +13,19 @@ A modern, responsive portfolio website showcasing my experience as a Software En
 
 ---
 
-## 🌟 Features
+## Features
 
-- **🎨 Modern Design** - Clean, professional interface with dark/light theme support
-- **📱 Fully Responsive** - Optimized for desktop, tablet, and mobile devices  
-- **⚡ Static Site Generation** - Fast loading with Next.js static export
-- **🎯 SEO Optimized** - Meta tags, Open Graph, and Twitter Card support
-- **♿ Accessible** - Built with accessibility best practices
-- **🔧 Type-Safe** - Full TypeScript implementation
-- **🎭 Theme Toggle** - Dark/light mode with system preference detection
+- **Modern Design** - Clean, professional interface with dark/light theme support
+- **Fully Responsive** - Optimized for desktop, tablet, and mobile devices  
+- **Static Site Generation** - Fast loading with Next.js static export
+- **SEO Optimized** - Meta tags, Open Graph, and Twitter Card support
+- **Accessible** - Built with accessibility best practices
+- **Type-Safe** - Full TypeScript implementation
+- **Theme Toggle** - Dark/light mode with system preference detection
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### **Frontend Framework**
 - **[Next.js 14](https://nextjs.org/)** - React framework with App Router
@@ -49,7 +49,7 @@ A modern, responsive portfolio website showcasing my experience as a Software En
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### **Prerequisites**
 - Node.js ≥ 20.0.0
@@ -88,7 +88,7 @@ A modern, responsive portfolio website showcasing my experience as a Software En
 
 ### **Available Scripts**
 
-> **⚠️ Important**: Run all commands from the `eric-portfolio` directory:
+> **Important**: Run all commands from the `eric-portfolio` directory:
 > ```bash
 > cd eric-portfolio  # Navigate to project directory first
 > ```
@@ -104,7 +104,7 @@ A modern, responsive portfolio website showcasing my experience as a Software En
 
 ---
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 wnorowskie.github.io/
@@ -133,7 +133,7 @@ wnorowskie.github.io/
 
 ---
 
-## 🔧 Configuration
+## Configuration
 
 ### **Next.js Config**
 The site is configured for static export with GitHub Pages optimization:
@@ -157,7 +157,7 @@ Automated deployment via GitHub Actions:
 
 ---
 
-## 🎨 Customization
+## Customization
 
 ### **Theme Colors**
 Modify theme colors in `tailwind.config.ts`:
@@ -188,7 +188,7 @@ All UI components are in `components/ui/` and built with:
 
 ---
 
-## 📱 Responsive Design
+## Responsive Design
 
 The portfolio is fully responsive with breakpoints:
 - **Mobile**: < 768px
@@ -199,7 +199,7 @@ Uses Tailwind's responsive utilities (`sm:`, `md:`, `lg:`, `xl:`) for adaptive l
 
 ---
 
-## ♿ Accessibility
+## Accessibility
 
 Built with accessibility in mind:
 - ✅ Semantic HTML structure
@@ -211,7 +211,7 @@ Built with accessibility in mind:
 
 ---
 
-## 🔍 SEO Features
+## SEO Features
 
 - **Meta Tags**: Title, description, keywords
 - **Open Graph**: Social media sharing optimization
@@ -222,7 +222,7 @@ Built with accessibility in mind:
 
 ---
 
-## 🚀 Deployment
+## Deployment
 
 ### **Automatic Deployment**
 Every push to `main` branch automatically:
@@ -246,7 +246,7 @@ npm run preview
 
 ---
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### **Common Issues**
 
@@ -273,13 +273,13 @@ npm install --legacy-peer-deps
 
 ---
 
-## 📄 License
+## License
 
 This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 While this is a personal portfolio, suggestions and improvements are welcome:
 
@@ -291,19 +291,19 @@ While this is a personal portfolio, suggestions and improvements are welcome:
 
 ---
 
-## 📞 Contact
+## Contact
 
 **Eric Wnorowski**  
-📧 Email: [your-email@domain.com](mailto:your-email@domain.com)  
-💼 LinkedIn: [linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)  
-🐙 GitHub: [@wnorowskie](https://github.com/wnorowskie)  
-🌐 Portfolio: [wnorowskie.github.io](https://wnorowskie.github.io/)
+Email: [ericwnorowski@gmail.com](mailto:ericwnorowski@gmail.com)  
+LinkedIn: [linkedin.com/in/ericwnorowski](https://linkedin.com/in/eric-wnorowski)  
+GitHub: [@wnorowskie](https://github.com/wnorowskie)  
+Portfolio: [wnorowskie.github.io](https://wnorowskie.github.io/)
 
 ---
 
 <div align="center">
 
-**⭐ If you found this helpful, please give it a star!**
+**If you found this helpful, please give it a star!**
 
 Made with ❤️ using Next.js, TypeScript, and Tailwind CSS
 
