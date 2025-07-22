@@ -35,7 +35,7 @@ jobs:
       with:
         node-version: '20'
         cache: 'npm'
-        cache-dependency-path: 'eric-portfolio/package-lock.json'
+        cache-dependency-path: 'eric-portfolio/package.json'
     
     # 3. Install dependencies
     - name: Install dependencies
