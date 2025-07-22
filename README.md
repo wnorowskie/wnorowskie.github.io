@@ -60,26 +60,38 @@ A modern, responsive portfolio website showcasing my experience as a Software En
 1. **Clone the repository**
    ```bash
    git clone https://github.com/wnorowskie/wnorowskie.github.io.git
-   cd wnorowskie.github.io/eric-portfolio
+   cd wnorowskie.github.io
    ```
 
-2. **Install dependencies**
+2. **Navigate to the Next.js project directory**
+   ```bash
+   cd eric-portfolio
+   ```
+
+3. **Install dependencies**
    ```bash
    npm run install:legacy
    # or manually: npm install --legacy-peer-deps
    ```
 
-3. **Start development server**
+4. **Start development server**
    ```bash
    npm run dev
    ```
 
-4. **Open in browser**
+5. **Open in browser**
    ```
    http://localhost:3000
    ```
 
+> **Important**: All npm commands must be run from the `eric-portfolio` directory, not the root directory.
+
 ### **Available Scripts**
+
+> **⚠️ Important**: Run all commands from the `eric-portfolio` directory:
+> ```bash
+> cd eric-portfolio  # Navigate to project directory first
+> ```
 
 | Command | Description |
 |---------|-------------|
