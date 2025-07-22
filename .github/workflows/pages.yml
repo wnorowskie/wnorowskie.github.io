@@ -45,21 +45,17 @@ jobs:
     # 4. Build and export static site
     - name: Build Next.js site
       working-directory: ./eric-portfolio
-      run: |
-        npm run deploy:pages
-        # Copy the build output to root for GitHub Pages
-        cp -r out/* ../
-        cp out/.nojekyll ../
+      run: npm run deploy:pages
     
     # 5. Setup GitHub Pages
     - name: Setup Pages
       uses: actions/configure-pages@v4
       
-    # 6. Upload artifact
+    # 6. Upload artifact (only the built site, not the entire repo)
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
       with:
-        path: '.'
+        path: './eric-portfolio/out'
         
     # 7. Deploy to GitHub Pages
     - name: Deploy to GitHub Pages
